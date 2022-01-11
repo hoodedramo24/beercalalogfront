@@ -1,0 +1,46 @@
+.beeritem-image {
+    height: 300px;
+    width: 110px;
+}
+
+.beeritem-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: box-shadow .3s;
+    background-color: rgb(196, 196, 196);
+}
+
+.beeritem-container:hover {
+    box-shadow: 0 0 30px rgba(15, 15, 15, 0.815); 
+}
+
+.beeritem-image-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.beeritem-title {
+    overflow-wrap: break-word;
+    width: 10rem;
+    font-weight: bold;
+}
+
+.beeritem-border {
+    border-radius: 1rem;
+    border-width: 20%;
+    
+}
+
+.beeritem-border-style {
+    border-color: black;
+    border-style: solid;
+}
+
+.beeritem-paragraph {
+
+}
